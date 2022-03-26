@@ -1,4 +1,4 @@
-import{j as l,s as e,R as d,a as p}from"./vendor.0f6c27f0.js";const m=function(){const n=document.createElement("link").relList;if(n&&n.supports&&n.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))c(r);new MutationObserver(r=>{for(const o of r)if(o.type==="childList")for(const a of o.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&c(a)}).observe(document,{childList:!0,subtree:!0});function s(r){const o={};return r.integrity&&(o.integrity=r.integrity),r.referrerpolicy&&(o.referrerPolicy=r.referrerpolicy),r.crossorigin==="use-credentials"?o.credentials="include":r.crossorigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function c(r){if(r.ep)return;r.ep=!0;const o=s(r);fetch(r.href,o)}};m();var g="/nft-preview-card-component/assets/image-equilibrium.90d2b484.jpg",f="/nft-preview-card-component/assets/icon-view.fffad88f.svg",u="/nft-preview-card-component/assets/icon-clock.725e4636.svg",h="/nft-preview-card-component/assets/icon-ethereum.76974d10.svg",x="/nft-preview-card-component/assets/image-avatar.48c39391.png";const t=l.exports.jsx,i=l.exports.jsxs;function v(){return t(y,{children:i(b,{children:[t(w,{className:"card-img",children:t("a",{href:"#",children:t("img",{className:"cardImg",src:g,alt:"image"})})}),i(C,{className:"card-main",children:[t("a",{href:"#",children:t(j,{className:"card-title",children:"Equilibrium #3429"})}),t(k,{className:"card-text",children:"Our Equilibrium collection promotes balance and calm."})]}),i(I,{children:[i(N,{children:[t(E,{src:h}),t(q,{children:"0.041 ETH"})]}),i(L,{children:[t(O,{src:u}),t(S,{children:"3 days left"})]})]}),i(T,{children:[t(M,{src:x}),i(z,{children:["Creation of ",t("a",{href:"#",children:"Jules Wyvern"})]})]})]})})}const y=e.div`
+import{j as c,s as e,R as d,a as p}from"./vendor.0f6c27f0.js";const m=function(){const n=document.createElement("link").relList;if(n&&n.supports&&n.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))l(r);new MutationObserver(r=>{for(const o of r)if(o.type==="childList")for(const a of o.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&l(a)}).observe(document,{childList:!0,subtree:!0});function s(r){const o={};return r.integrity&&(o.integrity=r.integrity),r.referrerpolicy&&(o.referrerPolicy=r.referrerpolicy),r.crossorigin==="use-credentials"?o.credentials="include":r.crossorigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function l(r){if(r.ep)return;r.ep=!0;const o=s(r);fetch(r.href,o)}};m();var g="/nft-preview-card-component/assets/image-equilibrium.90d2b484.jpg",f="/nft-preview-card-component/assets/icon-view.fffad88f.svg",u="/nft-preview-card-component/assets/icon-clock.725e4636.svg",h="/nft-preview-card-component/assets/icon-ethereum.76974d10.svg",x="/nft-preview-card-component/assets/image-avatar.48c39391.png";const t=c.exports.jsx,i=c.exports.jsxs;function v(){return t(y,{children:i(b,{children:[t(w,{className:"card-img",children:t("a",{href:"#",children:t("img",{className:"cardImg",src:g,alt:"image"})})}),i(C,{className:"card-main",children:[t("a",{href:"#",children:t(k,{className:"card-title",children:"Equilibrium #3429"})}),t(j,{className:"card-text",children:"Our Equilibrium collection promotes balance and calm."})]}),i(I,{children:[i(E,{children:[t(N,{alt:"Etherium-logo",src:h}),t(q,{children:"0.041 ETH"})]}),i(L,{children:[t(O,{alt:"clock-time",src:u}),t(S,{children:"3 days left"})]})]}),i(T,{children:[t(M,{alt:"profile-picture",src:x}),i(z,{children:["Creation of ",t("a",{href:"#",children:"Jules Wyvern"})]})]})]})})}const y=e.div`
  
   width: 100%;
   height: 100%;
@@ -52,7 +52,7 @@ import{j as l,s as e,R as d,a as p}from"./vendor.0f6c27f0.js";const m=function()
   }
 `,C=e.div`
   margin-top: 25px;
-`,j=e.h1`
+`,k=e.h1`
   color: hsl(0, 0%, 100%);
   font-size: 23px;
   font-weight: 600;
@@ -63,7 +63,7 @@ import{j as l,s as e,R as d,a as p}from"./vendor.0f6c27f0.js";const m=function()
   &:active, &:hover{
     color: hsl(178, 100%, 50%);
   }
-`,k=e.p`
+`,j=e.p`
   font-size: 18px;
   color: hsl(215, 51%, 70%);
   font-weight: 300;
@@ -76,13 +76,13 @@ import{j as l,s as e,R as d,a as p}from"./vendor.0f6c27f0.js";const m=function()
   border-bottom: .5px solid black;
   border-color: hsl(215, 51%, 70%);
 
-`,N=e.div`
+`,E=e.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0;
   margin: 0;
-`,E=e.img`
+`,N=e.img`
   width: auto;
   height: 18px;
   fill: hsl(178, 100%, 50%)
